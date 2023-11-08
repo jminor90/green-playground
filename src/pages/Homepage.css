@@ -1,0 +1,37 @@
+html, body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #ffff00, #00ff00);
+  color: white !important;
+  /* padding-top: 100px !important; */
+}
+
+.nav {
+  position:fixed;
+  top:0;
+  width: 100vw;
+  justify-content: space-around;
+  /* background-color: #828282; */
+  background: linear-gradient(180deg, #828282, #000000);
+  border-radius: 0px 0px 10px 10px;
+  border-bottom: solid 1px;
+  color:black;
+  z-index: 20;
+}
+
+.all-container{
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute; */
+
+  margin-top: 5em;
+  /* margin-left: 44vw; */
+
+}
